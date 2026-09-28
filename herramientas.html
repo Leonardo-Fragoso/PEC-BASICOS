@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Herramientas y Registro - EcoVivo</title>
+</head>
+<body>
+
+  <!-- MÓDULO 05: ENCABEZADO Y NAVEGACIÓN -->
+  <header>
+    <h1>Proyecto EcoVivo de Nuestra Escuela</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="galeria.html">Galería de Fotos</a></li>
+        <li><a href="plantas.html">Nuestras Plantas</a></li>
+        <li><a href="herramientas.html">Herramientas y Registro</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- MÓDULO 04: ENLACES -->
+    <section>
+      <h2>Páginas Divertidas para Aprender Más</h2>
+      <ul>
+        <li><a href="https://www.gob.mx/semarnat" target="_blank">Página de la SEMARNAT para Niños</a></li>
+        <li><a href="https://www.fao.org" target="_blank">Aprende a hacer Abono para Plantas</a></li>
+      </ul>
+    </section>
+
+    <!-- MÓDULO 07: INVENTARIO Y FORMULARIO (TU MÓDULO MÁS COMPLETO) -->
+    <section>
+      <h2>Lista de Materiales para el Jardín</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Código</th>
+            <th>Herramienta</th>
+            <th>¿Cuántas hay?</th>
+            <th>¿Cómo están?</th>
+            <th>¿Quién la cuida?</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HER-01</td>
+            <td>Palitas de mano pequeñas</td>
+            <td>12 palitas</td>
+            <td>Listas para usar</td>
+            <td>Grupo de 5° A</td>
+          </tr>
+          <tr>
+            <td>HER-02</td>
+            <td>Regaderas de plástico</td>
+            <td>8 regaderas</td>
+            <td>Buenas</td>
+            <td>Grupo de 4° B</td>
+          </tr>
+          <tr>
+            <td>INS-01</td>
+            <td>Bolsas de tierra con abono</td>
+            <td>5 bolsas</td>
+            <td>Nuevas</td>
+            <td>Comité de Papás</td>
+          </tr>
+          <tr>
+            <td>INS-02</td>
+            <td>Manguera para el agua</td>
+            <td>2 mangueras</td>
+            <td>Funciona bien</td>
+            <td>Don Beto (Intendencia)</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Pedir Prestada una Herramienta</h2>
+      <p>Anota tus datos para pedir prestada una regadera o palita de jardín:</p>
+      
+      <form action="#" method="get">
+        <label for="nombre">Nombre del Alumno(a):</label><br>
+        <input type="text" id="nombre" name="nombre"><br><br>
+
+        <label for="grado">Tu Grado y Grupo:</label><br>
+        <select id="grado" name="grado">
+          <option value="1a">1er Grado</option>
+          <option value="2a">2do Grado</option>
+          <option value="3a">3er Grado</option>
+          <option value="4a">4to Grado</option>
+          <option value="5a">5to Grado</option>
+          <option value="6a">6to Grado</option>
+        </select><br><br>
+
+        <label for="herramienta">¿Qué vas a pedir prestado?:</label><br>
+        <select id="herramienta" name="herramienta">
+          <option value="pala">Palita de mano</option>
+          <option value="regadera">Regadera azul</option>
+          <option value="rastrillo">Rastrillo chico</option>
+          <option value="cubeta">Cubeta pequeña</option>
+        </select><br><br>
+
+        <label for="observaciones">¿Para qué la vas a usar?:</label><br>
+        <textarea id="observaciones" name="observaciones" rows="3" cols="35"></textarea><br><br>
+
+        <button type="submit">Apartar mi Herramienta</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- MÓDULO 06: PIE DE PÁGINA -->
+  <footer>
+    <p>Cuidemos juntos nuestro planeta</p>
+  </footer>
+
+</body>
+</html>
